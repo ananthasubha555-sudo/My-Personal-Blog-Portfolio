@@ -9,11 +9,7 @@ dotenv.config();
 const app = express();
 
 app.use(
-  cors({
-    origin: "https://my-personal-blog-portfolio.vercel.app/",
-    methods: "GET,POST",
-  })
-);
+  cors());
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
