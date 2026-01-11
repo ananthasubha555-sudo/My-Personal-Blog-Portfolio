@@ -18,7 +18,7 @@ export default function Contact() {
     e.preventDefault();
 
     try {
-      await axios.post("http://localhost:5000/api/contact", {
+      await axios.post("https://my-personal-blog-portfolio-1.onrender.com/api/contact", {
         name,
         email,
         message,
