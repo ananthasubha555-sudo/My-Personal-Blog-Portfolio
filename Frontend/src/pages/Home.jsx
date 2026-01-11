@@ -36,29 +36,7 @@ export default function Home() {
         I  build a modern, fast, and responsive web applications.
       </motion.p>
 
-      {/* Animated Buttons */}
-      <motion.div
-        className="mt-8 flex gap-4"
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 1.4, duration: 1 }}
-      >
-        <a
-          href="/Subha-Resume.pdf"
-          download
-          className="px-5 py-2 rounded-lg bg-black text-white hover:bg-gray-800 transition shadow"
-        >
-          Download Resume
-        </a>
-
-        <a
-          href="/projects"
-          className="px-5 py-2 rounded-lg border border-black hover:bg-black hover:text-white transition shadow"
-        >
-          View Projects
-        </a>
-      </motion.div>
-
+    
     </section>
   );
 }
